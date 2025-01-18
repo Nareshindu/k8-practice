@@ -1,0 +1,12 @@
+apiVersion: v1
+kind: Configmap
+metadata:
+  name: san-nar-config
+  labels:
+    stage: dev
+    env: dev
+  annotations:
+    imageregistry: https://hub.docker.com/
+data:
+  course: devops
+  status: learning    
