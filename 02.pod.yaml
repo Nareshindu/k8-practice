@@ -1,0 +1,14 @@
+apiVersion: v1
+kind: Pod
+metadata: 
+  name: naresh-pod
+  labels:
+    env: dev
+    stage: development
+  annotations: imageregistry: https://hub.docker.com/
+spec:
+  containers:
+   - name: naresh-nginx
+     image: nginx
+     ports:
+     - containerPort: 80 
