@@ -7,17 +7,30 @@ metadata:
     stage: development
   annotations:
     imageregistry: https://hub.docker.com/
+# spec:
+#   containers:
+#   - name: naresh-db
+#     image: naresh34/mysql:v1
+#     ports:
+#     - containerPort: 3306
+#   - name: naresh-backend
+#     image: naresh34/backend:v1
+#     ports:
+#     - containerPort: 8080
+#   - name: naresh-frontend
+#     image: naresh34/frontend:v1
+#     ports:
+#     - containerPort: 80      
+
 spec:
   containers:
   - name: naresh-db
     image: naresh34/mysql:v1
-    ports:
-    - containerPort: 3306
+    
   - name: naresh-backend
     image: naresh34/backend:v1
-    ports:
-    - containerPort: 8080
+    
   - name: naresh-frontend
     image: naresh34/frontend:v1
-    ports:
-    - containerPort: 80      
+          
+
