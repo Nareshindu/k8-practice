@@ -20,4 +20,4 @@ spec:
   - name: naresh-frontend
     image: naresh34/frontend:v1
     ports:
-    - cotainerPort: 80      
+    - containerPort: 80      
