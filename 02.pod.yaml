@@ -5,7 +5,8 @@ metadata:
   labels:
     env: dev
     stage: development
-  annotations: imageregistry: https://hub.docker.com/
+  annotations: 
+    imageregistry: https://hub.docker.com/
 spec:
   containers:
    - name: naresh-nginx
