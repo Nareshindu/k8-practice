@@ -4,8 +4,7 @@ metadata:
   name: naresh-pod
   namespace: naresh-namespace 
   labels:
-    env: dev
-    stage: development
+    tier: frontend
   annotations: 
     imageregistry: https://hub.docker.com/
 spec:
